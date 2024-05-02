@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+#header {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+height: 75px;
+width: 100%;
+background-color: aqua;
+border-bottom:solid;
+}
+#header button{
+    margin-right: 20px
+}
+#boxbox {
+    display: flex;
+    height: 1300px;
+    width: 100%;
+}
+#leftbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49.5%;
+    background-color: purple;
+    margin-top: 5px;
+    margin-right: 5px;
+    flex-wrap: nowrap;
+    border-top: solid;
+    border-right: solid;
+}
+#rightbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50.2%;
+    background-color: green;
+    margin-top: 5px;
+    border-top: solid ;
+    border-left: solid;
+    flex-flow: column wrap;
+}
+#rightbox h5{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-left: 100px;
+}
+.inputbox {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    height: 20px
+}
+#Content-box{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 20px
+}
